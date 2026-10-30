@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Chạy từ điển (F5)",
+      "program": "${workspaceFolder}/server.mjs",
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "hoc-deu-tu-dien",
+  "version": "1.0.0",
+  "description": "Từ điển và công cụ tự học offline: tiếng Anh (IELTS, TOEIC), tiếng Nhật (JLPT), tiếng Trung (HSK), tiếng Hàn; dịch câu",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.mjs",
+    "build-data": "python3 scripts/build_data.py src"
+  },
+  "license": "MIT"
+}
